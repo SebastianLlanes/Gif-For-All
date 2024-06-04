@@ -11,7 +11,7 @@ const DisplayGif = ({ category }) => {
         {
             loading ? 
             data.map(img => (
-                <ImageItem key={img.id} title={img.title} url={img.images.downsized_small.url} />
+                <ImageItem key={img.id} title={img.title} url={img.images.downsized_medium.url} />
             ))
             : ''
         }
