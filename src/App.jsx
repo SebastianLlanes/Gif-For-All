@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className='App'>
-       <h2>Gifs For All</h2>
+       <h2>Gifs For All!</h2>
        <AddCategory setCategory={setCategory} />
        <DisplayGif category={category} />
       </div>
